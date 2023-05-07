@@ -34,7 +34,7 @@ make
 #include "tcp_server.h"
 #include "protocol.h"
 
-using namespace ::sparrow;
+using namespace ::droplet;
 int main() {
     TcpServer server;
     auto onMessage = [](std::shared_ptr<EioChannel>& chan, std::shared_ptr<Buffer>& read_buf) {
@@ -80,7 +80,7 @@ int main() {
 #include "protocol.h"
 #include "nio.h"
 
-using namespace ::sparrow;
+using namespace ::droplet;
 
 int run_get_device_list(int index) {
     int conn_fd = Nio::connect_socket("127.0.0.1", 22222, 3000);
