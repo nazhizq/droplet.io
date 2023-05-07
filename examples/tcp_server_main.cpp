@@ -1,7 +1,7 @@
 #include "tcp_server.h"
 #include "protocol.h"
 
-using namespace ::sparrow;
+using namespace ::droplet;
 int main() {
     TcpServer server;
     auto onMessage = [](std::shared_ptr<EioChannel>& chan, std::shared_ptr<Buffer>& read_buf) {

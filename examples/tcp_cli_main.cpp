@@ -9,7 +9,7 @@
 #include "protocol.h"
 #include "nio.h"
 
-using namespace ::sparrow;
+using namespace ::droplet;
 
 int run_get_device_list(int index) {
     int conn_fd = Nio::connect_socket("127.0.0.1", 22222, 3000);
