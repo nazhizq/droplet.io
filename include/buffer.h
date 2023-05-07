@@ -5,7 +5,7 @@
 #include <iostream>
 #include <string.h>
 
-namespace sparrow {
+namespace droplet {
 
 typedef class Buf {
 private:

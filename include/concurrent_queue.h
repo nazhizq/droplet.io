@@ -8,7 +8,7 @@
 #include <chrono>
 #include "concurrent_queue.h"
 
-namespace sparrow {
+namespace droplet {
 
 template <typename T>
 class ConcurrentQueue  

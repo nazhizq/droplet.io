@@ -8,7 +8,7 @@
 // #include <sys/types.h>
 #include <fcntl.h>
 
-namespace sparrow {
+namespace droplet {
 
 #define EVENTS_INIT_SIZE 64
 #define MAX_LINK_NUM 1024

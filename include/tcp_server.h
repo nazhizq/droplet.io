@@ -4,7 +4,7 @@
 #include <iostream>
 #include "io_acceptor.h"
 
-namespace sparrow {
+namespace droplet {
 
 class TcpServer {
 public:

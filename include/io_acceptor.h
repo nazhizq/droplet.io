@@ -12,7 +12,7 @@
 #include "concurrent_queue.h"
 #include "channel.h"
 
-namespace sparrow {
+namespace droplet {
 
 class IOAcceptor {
 public:

@@ -13,7 +13,7 @@
 #include <string.h>
 #include "nio.h"
 
-namespace sparrow {
+namespace droplet {
 
 #define MAXLINE 1024
 

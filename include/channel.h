@@ -7,7 +7,7 @@
 #include "buffer.h"
 #include "epoll_util.h"
 
-namespace sparrow {
+namespace droplet {
 
 class EioChannel {
 public:

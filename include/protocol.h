@@ -10,7 +10,7 @@
 #include "buffer.h"
 #include "nio.h"
 
-namespace sparrow { 
+namespace droplet { 
 
 using json = nlohmann::json;
 

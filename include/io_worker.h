@@ -10,7 +10,7 @@
 #include "channel.h"
 #include "nio.h"
 
-namespace sparrow {
+namespace droplet {
 
 class IoWorker {
 public:
