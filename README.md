@@ -1,3 +1,5 @@
+English | [中文](README-CN.md)
+
 # droplet.io
 # libhv
 
@@ -27,7 +29,7 @@ make
 
 ### TCP
 #### tcp server
-**c++ version**: [examples/tcp_server_main.cpp](tcp_server_main.cpp)
+**c++ version**: [examples/tcp_server_main.cpp](examples/tcp_server_main.cpp)
 
 ```c++
 #include "tcp_server.h"
@@ -65,7 +67,7 @@ int main() {
 ```
 
 #### tcp client
-**c++ version**: [examples/tcp_cli_main.cpp](tcp_cli_main.cpp)
+**c++ version**: [examples/tcp_cli_main.cpp](examples/tcp_cli_main.cpp)
 
 ```c++
 #include <iostream>
