@@ -1,7 +1,6 @@
 English | [中文](README-CN.md)
 
 # droplet.io
-# libhv
 
 [![release](https://badgen.net/github/release/nazhizq/droplet.io?icon=github)](https://github.com/nazhizq/droplet.io/releases)
 [![stars](https://badgen.net/github/stars/nazhizq/droplet.io?icon=github)](https://github.com/nazhizq/droplet.io/stargazers)
