@@ -5,14 +5,7 @@
 [![forks](https://badgen.net/github/forks/nazhizq/droplet.io?icon=github)](https://github.com/nazhizq/droplet.io/network/members)
 [![issues](https://badgen.net/github/issues/nazhizq/droplet.io?icon=github)](https://github.com/nazhizq/droplet.io/issues)
 [![PRs](https://badgen.net/github/prs/nazhizq/droplet.io?icon=github)](https://github.com/nazhizq/droplet.io/pulls)
-<br>
-Q: 为何要写这个动态库？
-<br/>
-A: 作为服务端c++工程师，经常接触开源网络库，包括常见的GRPC、BRPC、libevent、libhv等，这些大型网络库的性能很好，功能完善。但是，太大了不一定适合所有场景。
-  * 编译问题，可能依赖的某个库的版本不同，导致编译失败。
-  * 代码量庞大，依赖第三方库太多，导致构建的SO文件过大，部署不方便（尤其是嵌入式环境）
-  * 代码复杂，很难自定义二次开发。
-  * 最后，作为一名c++网络服务开发者，拥有自己的网络库，既是兴趣使然，也是底气所向。
+
 
 ## ✨ 特性
 - c++11标准库，无第三方库依赖
@@ -131,3 +124,11 @@ int main() {
     return 0;
 }
 ```
+<br>
+Q: 为何要写这个动态库？
+<br/>
+A: 作为服务端c++工程师，经常接触开源网络库，包括常见的GRPC、BRPC、libevent、libhv等，这些大型网络库的性能很好，功能完善。但是，太大了不一定适合所有场景。
+  * 编译问题，可能依赖的某个库的版本不同，导致编译失败。
+  * 代码量庞大，依赖第三方库太多，导致构建的SO文件过大，部署不方便（尤其是嵌入式环境）
+  * 代码复杂，很难自定义二次开发。
+  * 最后，作为一名c++网络服务开发者，拥有自己的网络库，既是兴趣使然，也是底气所向。
