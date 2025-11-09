@@ -36,6 +36,7 @@ public:
         if (newsize == len) return;
         if (base == NULL) {
             base = (char*)malloc(newsize);
+            memset(base, 0, newsize);
         } else {
             void* ptr = (char*)realloc(base, newsize);
             if (newsize > len) {
